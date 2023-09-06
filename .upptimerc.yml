@@ -2,14 +2,10 @@ owner: WeilNET
 repo: uptime
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: AMS0
+    check: "tcp-ping"
+    url: $ENDPOINT_AMS0
+    port: 9100
 
 status-website:
   cname: status.weilnet.org
