@@ -2,10 +2,14 @@ owner: WeilNET
 repo: uptime
 
 sites:
-  - name: AMS0
+  - name: Infrastructure - AMS0
     check: "tcp-ping"
     url: $ENDPOINT_AMS0
     port: 9100
+  - name: Infrastructure - SKP1
+    check: "tcp-ping"
+    url: $ENDPOINT_SKP1
+    port: 5678
 
 status-website:
   cname: status.weilnet.org
