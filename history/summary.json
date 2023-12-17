@@ -4,9 +4,9 @@
     "url": "$ENDPOINT_AMS0",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "infrastructure-ams-0",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -15,7 +15,9 @@
     "timeWeek": 173,
     "timeMonth": 182,
     "timeYear": 187,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-12-17": 0
+    }
   },
   {
     "name": "Infrastructure - SKP1",
@@ -23,18 +25,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "infrastructure-skp-1",
     "status": "down",
-    "uptime": "22.93%",
+    "uptime": "22.75%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "1.38%",
-    "uptimeYear": "22.93%",
+    "uptimeYear": "22.75%",
     "time": 212,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 212,
     "dailyMinutesDown": {
-      "2023-12-17": 38,
+      "2023-12-17": 1165,
       "2023-12-16": 1440,
       "2023-12-15": 1440,
       "2023-12-14": 1440,
